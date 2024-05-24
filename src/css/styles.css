@@ -7,12 +7,12 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
-@import url('./Footer.css');
-@import url('./Menu.css');
-@import url('./Section-About us.css');
-@import url('./Section-Hero.css');
-@import url('./Section-Our collection.css');
-@import url('./Section-Testimonials.css');
+@import url('./footer.css');
+@import url('./menu.css');
+@import url('./section-about-us.css');
+@import url('./section-hero.css');
+@import url('./section-our-collection.css');
+@import url('./section-testimonials.css');
 @import url('./common.css');
 
 
