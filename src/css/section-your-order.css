@@ -1,0 +1,175 @@
+.order-section-img {
+  max-width: 375px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+ 
+  background-image: url(/img/order_section_img-min_mob.jpg);
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .order-section-img {
+    background-size: cover;
+    background-image: url(/img/order_section_img_mob@2x-min.jpg);
+  }
+}
+
+.section-header {
+  display: block;
+  max-width: 335px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: #ecd979;
+  margin-bottom: 40px;
+}
+
+.accent {
+  color: #fcf9f9;
+}
+
+.form-field-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.form-field {
+  width: 100%;
+  height: 47px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  background-color: #1c2225;
+}
+
+.comment-field {
+  width: 100%;
+  height: 196px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+  resize: none;
+  background-color: #1c2225;
+}
+
+::placeholder {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-btn {
+  display: flex;
+  margin: 0 auto;
+  max-width: 145px;
+  height: 49px;
+  padding: 14px 36px;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  color: #fcf9f9;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  cursor: pointer;
+  background-color: #1c2225;
+}
+
+.btn-icon {
+  fill: #ecd979;
+}
+
+.order-product-img {
+  display: none;
+}
+
+/* ========================================================================================================================================================
+TABLET YOUR ORDER-SECTION STYLES
+======================================================================================================================================================== */
+
+@media screen and (min-width: 768px) {
+  .order-section-img {
+    min-width: 768px;
+    height: 776px;
+    margin-bottom: 100px;
+    background-image: url(/img/order_section_img-min_tablet-min.jpg);
+  }
+
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .order-section-img {
+      background-image: url(/img/order_section_img-min_tablet@2x-min.jpg);
+    }
+  }
+
+  .container {
+    min-width: 768px;
+    padding: 0 32px;
+  }
+
+  .section-header {
+    display: block;
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.3;
+  }
+
+  .form-field {
+    width: 508px;
+    height: 50px;
+  }
+
+  .comment-field {
+    width: 508px;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .order-btn {
+    width: 168px;
+    height: 50px;
+    padding: 14px 39px;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .order-form {
+    margin-bottom: 100px;
+  }
+
+  .order-product-img {
+    display: block;
+    padding-bottom: 79px;
+  }
+
+  .product-img {
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .ornament-img {
+    background-image: url(/img/ornament_img_tablet-min.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 323px 484px;
+  }
+
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .ornament-img {
+      background-image: url(/img/ornament_img_tablet@2x-min.png);
+    }
+  }
+}
