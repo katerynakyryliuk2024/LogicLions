@@ -37,7 +37,7 @@ img {
 }
 
 body {
-  font-family: 'Manrope', 'DM';
+  font-family: 'Manrope', sans-serif;
   color: #fcf9f9;
   background-color:
     #1c2225;
