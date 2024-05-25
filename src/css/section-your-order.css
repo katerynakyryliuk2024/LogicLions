@@ -1,19 +1,17 @@
 .order-section-img {
-  max-width: 375px;
+  max-width: 100%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
- 
-  background-image: url(/img/order_section_img-min_mob.jpg);
+  background-image: url(/img/your_order_img/order_section_img-min_mob.jpg);
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .order-section-img {
-    background-size: cover;
-    background-image: url(/img/order_section_img_mob@2x-min.jpg);
+    background-image: url(/img/your_order_img/order_section_img_mob@2x-min.jpg);
   }
 }
 
@@ -99,22 +97,17 @@ TABLET YOUR ORDER-SECTION STYLES
 
 @media screen and (min-width: 768px) {
   .order-section-img {
-    min-width: 768px;
     height: 776px;
     margin-bottom: 100px;
-    background-image: url(/img/order_section_img-min_tablet-min.jpg);
+    background-image: url(/img/your_order_img/order_section_img-min_tablet-min.jpg);
   }
 
   @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .order-section-img {
-      background-image: url(/img/order_section_img-min_tablet@2x-min.jpg);
+      background-image: url(/img/your_order_img/order_section_img-min_tablet@2x-min.jpg);
     }
   }
 
-  .container {
-    min-width: 768px;
-    padding: 0 32px;
-  }
 
   .section-header {
     display: block;
@@ -138,7 +131,7 @@ TABLET YOUR ORDER-SECTION STYLES
   }
 
   .order-btn {
-    width: 168px;
+    max-width: 168px;
     height: 50px;
     padding: 14px 39px;
     align-items: center;
@@ -161,15 +154,43 @@ TABLET YOUR ORDER-SECTION STYLES
   }
 
   .ornament-img {
-    background-image: url(/img/ornament_img_tablet-min.png);
+    background-image: url(/img/your_order_img/ornament_img_tablet-min.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 323px 484px;
+    background-position: -222px bottom;
+    background-size: 545px 484px;
   }
 
   @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .ornament-img {
-      background-image: url(/img/ornament_img_tablet@2x-min.png);
+      background-image: url(/img/your_order_img/ornament_img_tablet@2x-min.png);
     }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .order-section-img {
+    margin-bottom: 150px;
+    background-image: url(/img/your_order_img/order_section_img-min_desctop-min.jpg);
+  }
+
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .order-section-img {
+      background-image: url(/img/your_order_img/order_section_img-min_desctop@2x-min.jpg);
+    }
+  }
+
+  .form-container {
+    height: 640px;
+    display: flex;
+    gap: 50px;
+  }
+
+  .order-form {
+    order: 2;
+  }
+
+  .ornament-img {
+    background-position: -256px bottom;
   }
 }
