@@ -36,6 +36,7 @@
   margin-bottom: 40px;
 }
 
+
 .form-field {
   width: 100%;
   height: 47px;
@@ -211,6 +212,7 @@ TABLET YOUR ORDER-SECTION STYLES
 
   .order-form {
     order: 2;
+    margin: 0;
   }
 
   .ornament-img {
