@@ -26,6 +26,7 @@
 }
 
 .about-us-content-img {
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -66,7 +67,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .about-us-conent-wrapper {
+  .about-us-content-wrapper {
     display: flex;
     align-items: center;
     column-gap: 50px;
@@ -74,6 +75,7 @@
 
   .about-us-text-content {
     max-width: 536px;
+    margin-bottom: 0;
   }
 
   .about-us-bg-wrapper {
