@@ -197,13 +197,13 @@ TABLET YOUR ORDER-SECTION STYLES
     background-image: url(/img/your_order_img/order_section_img-min_desctop-min.jpg);
   }
 
-  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
     .order-section-img {
       background-image: url(/img/your_order_img/order_section_img-min_desctop@2x-min.jpg);
     }
   }
 
-  .form-container {
+  .container{
     height: 640px;
     display: flex;
     gap: 50px;
