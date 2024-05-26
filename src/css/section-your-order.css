@@ -177,7 +177,7 @@ TABLET YOUR ORDER-SECTION STYLES
   }
 
   .ornament-img {
-    background-image: url(/img/your_order_img/ornament_img_tablet-min.png);
+    background-image: url(/img/bg-images/gray-pattern-bg.png);
     background-repeat: no-repeat;
     background-position: right calc(50% + 333px) bottom;
     background-size: 545px 484px;
@@ -185,7 +185,7 @@ TABLET YOUR ORDER-SECTION STYLES
 
   @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .ornament-img {
-      background-image: url(/img/your_order_img/ornament_img_tablet@2x-min.png);
+      background-image: url(/img/bg-images/gray-pattern-bg@2x.png);
     }
   }
 }
