@@ -14,11 +14,8 @@
             name="user-name"
             placeholder="Enter your full name"
             required
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
-          />
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+">
         </label>
-      
-     
         <label class="field-name">
           <input
             class="form-field"
@@ -46,26 +43,19 @@
     <div class="order-product-img">
       <picture>
         <source
-          srcset="
-            /img/your_order_img/product_photo_desctop-min.jpg    1x,
-            /img/your_order_img/product_photo_desctop@2x-min.jpg 2x
-          "
-          media="(min-width: 1280px)"
-        />
+          srcset="/img/your_order_img/product_photo_desctop-min.jpg    1x,
+            /img/your_order_img/product_photo_desctop@2x-min.jpg 2x"
+          media="(min-width: 1280px)">
         <source
-          srcset="
-            /img/your_order_img/product_photo_tablet-min.jpg    1x,
-            /img/your_order_img/product_photo_tablet@2x-min.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
+          srcset="/img/your_order_img/product_photo_tablet-min.jpg    1x,
+            /img/your_order_img/product_photo_tablet@2x-min.jpg 2x"
+          media="(min-width: 768px)">
         <img
           class="product-img"
           src="/img/your_order_img/product_photo_desctop-min.jpg"
           alt="product photo"
           width="588"
-          height="521"
-        />
+          height="521">
       </picture>
     </div>
   </div>
