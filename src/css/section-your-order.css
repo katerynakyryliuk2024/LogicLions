@@ -108,7 +108,6 @@ TABLET YOUR ORDER-SECTION STYLES
     }
   }
 
-
   .section-header {
     display: block;
     max-width: 542px;
@@ -156,7 +155,7 @@ TABLET YOUR ORDER-SECTION STYLES
   .ornament-img {
     background-image: url(/img/your_order_img/ornament_img_tablet-min.png);
     background-repeat: no-repeat;
-    background-position: -222px bottom;
+    background-position: right calc(50% + 333px) bottom;
     background-size: 545px 484px;
   }
 
@@ -193,4 +192,8 @@ TABLET YOUR ORDER-SECTION STYLES
   .ornament-img {
     background-position: -256px bottom;
   }
+
+    .ornament-img {
+      background-position: right calc(50% + 623.5px) bottom;
+    }
 }
