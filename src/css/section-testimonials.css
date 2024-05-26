@@ -1,14 +1,6 @@
-.testimonials-list{
-    display: flex;
-    flex-direction: row; 
-}
-
-.testimonials-item:nth-child(2),
-.testimonials-item:nth-child(3){
-    display: none;
-}
-.testimonials-item{
-    position: relative;
+.testimonials-swiper-container {
+    width: 100%;
+    height: 100%;
 }
 
 .testimonials-image-container {
@@ -21,32 +13,34 @@
     overflow: hidden;
     box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
     transform: translateX(-50%);
+    z-index: 999;
 }
 
-.testimonials-section-title{
+.testimonials-section-title {
     font-weight: 500;
     font-size: 32px;
     line-height: 1.37;
     letter-spacing: -0.03em;
-    margin-bottom: 64px;
 }
 
-.testimonials-item{
+.testimonials-item {
+    position: relative;
+    margin-top: 64px;
+    height: auto;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     padding: 54px 18px 18px 18px;
 }
 
-.testimonials-user-name{
+.testimonials-user-name {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.5;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 8px;
 }
 
-.testimonials-text{
-    /* letter-spacing: 0.02em;*/
+.testimonials-text {
     line-height: normal;
     font-weight: 400;
     font-size: 14px;
@@ -54,8 +48,8 @@
     color: rgba(252, 249, 249, 0.4);
 }
 
-@media screen and (min-width: 375px) {
 
+@media screen and (min-width: 375px) {
 
 }
 
@@ -65,42 +59,31 @@
         font-size: 44px;
         line-height: 1.45;
     }
-    
-    .testimonials-text{
+
+    .testimonials-text {
         font-size: 16px;
     }
-    .testimonials-list{
+
+    .testimonials-list {
         gap: 32px;
     }
 
-    .testimonials-item{
+    .testimonials-item {
         width: calc((100% - 32px) / 2);
-    }
-
-    .testimonials-item:nth-child(2)
-    {
-        display: inline-block;
     }
 
 }
 
 @media screen and (min-width: 1280px) {
-    .testimonials-item:nth-child(3){
-        display: inline-block;
-    }
 
-    .testimonials-list{
+    .testimonials-list {
         gap: 26px;
     }
 
     .testimonials-item {
         width: calc((100% - 2*26px) / 3);
+        padding-bottom: 39px;
+        ;
     }
-
-    .testimonials-text {
-        padding-bottom: 21px;
-    }
-    
-
 
 }
