@@ -221,6 +221,8 @@ your-order-section styles for desktop
   }
 
   .order-product-img{
+    width: 588px;
+    height: auto;
     padding-bottom: 119px;
   }
 
