@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/LogicLions/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/LogicLions/assets/index-df7951ff.css">
+    <link rel="stylesheet" href="/LogicLions/assets/index-ac22ab13.css">
   </head>
   <body>
     <header></header>
@@ -25,6 +25,7 @@
     <main>
       
       <section class="about-us section-padding" id="about-us">
+
   <div class="container about-us-content-wrapper">
     <div class="about-us-text-content">
       <h2 class="about-us-title">About Us</h2>
@@ -81,7 +82,63 @@
 </section>
 
       
+      <section class="section-order ornament-img">
+  <div class="order-section-img"></div>
+  <div class="container order-form-container">
+
+    <form class="order-form">
+      <h2 class="section-header">
+        <span class="accent">Your order</span>
+        is our priority: Personalized approach and quality of service
+      </h2>
+      <div class="form-field-wraper">
+        <label class="field-name">
+          <input
+            class="form-field"
+            type="text"
+            name="user-name"
+            placeholder="Enter your full name"
+            required
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
+          />
+        </label>
+        <label class="field-name">
+          <input
+            class="form-field"
+            type="email"
+            name="user-email"
+            placeholder="Enter your email"
+          />
+        </label>
+
+        <label class="field-name">
+          <textarea
+            class="comment-field"
+            name="user-comments"
+            rows="9"
+            placeholder="Comments"
+          ></textarea>
+        </label>
+      </div>
+      <button class="order-btn" type="submit">
+        Send
+        <svg class="btn-icon" width="26" height="10">
+          <use href="/LogicLions/assets/symbol-defs-dea8365d.svg#icon-untitled"></use>
+        </svg>
+      </button>
       
+    </form>
+    <div class="order-product-img">
+      <picture>
+        <source srcset="/LogicLions/assets/product_photo_desctop-min-f231b417.jpg 1x, /LogicLions/assets/product_photo_desctop@2x-min-843b5142.jpg 2x" media="(min-width: 1280px)" />
+        <source srcset="/LogicLions/assets/product_photo_tablet-min-8dbdd4f9.jpg 1x, /LogicLions/assets/product_photo_tablet@2x-min-471e420a.jpg 2x" media="(min-width: 768px)" />
+        <img class="product-img" src="/LogicLions/assets/product_photo_desctop-min-f231b417.jpg" alt="product photo" width="588"
+          height="521" />
+      </picture>
+    </div>
+  </div>
+</section>
+
       <section class="section-testimonials section-padding">
     <div class="container">
         <h2 class="testimonials-section-title">Testimonials</h2>
