@@ -1,33 +1,4 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-body {
-	padding: 0;
-	margin: 0;
-	font-family: 'Manrope';
-}
 
-a {
-	text-decoration: none;
-}
-
-ul,
-li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-body {
-	background: #1c2225;
-}
-
-.container {
-	min-width: 320px;
-	margin: 0 auto;
-	/* padding: 0 16px; */
-}
 
 /* header */
 
@@ -176,9 +147,7 @@ body {
 } */
 
 @media (min-width: 375px) {
-	.container {
-		max-width: 375px;
-	}
+
 	.header__content {
 		justify-content: center;
 	}
@@ -207,10 +176,6 @@ body {
 }
 
 @media (min-width: 768px) {
-	.container {
-		max-width: 768px;
-		padding: 0 32px;
-	}
 	.logo {
 		margin-right: 440px;
 	}
@@ -220,10 +185,7 @@ body {
 }
 
 @media (min-width: 1280px) {
-	.container {
-		max-width: 1280px;
-		padding: 0 50px;
-	}
+
 	.header__content {
 		justify-content: space-between;
 	}
