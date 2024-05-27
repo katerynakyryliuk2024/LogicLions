@@ -1,10 +1,10 @@
 .collection-box {
   background-image: url(/img/collection/vizerunok-yello-min.png);
   background-repeat: no-repeat;
-  background-position: left top 12%;
+  background-position: left top 10%;
   max-width: fit-content;
   margin: 0 auto;
-  background-size: 595px 528px;
+  background-size: 199px 177px;
 }
 
 .collection {
@@ -75,6 +75,7 @@
 
   .collection-box {
     background-position: left top 16%;
+    background-size: 338px 300px;
   }
 
   .collection-title {
@@ -119,8 +120,7 @@
   }
 
   .collection-box {
-    background-position: left top 30.5%;
-    background-size: 200px 250px;
+    background-position: left top 25.5%;
   }
 
   .collection-item-list {
