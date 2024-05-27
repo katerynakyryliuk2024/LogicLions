@@ -4,6 +4,7 @@
   background-position: left top 12%;
   max-width: fit-content;
   margin: 0 auto;
+  background-size: 595px 528px;
 }
 
 .collection {
@@ -50,6 +51,7 @@
   color: #fcf9f9;
   text-align: left;
   padding-bottom: 8px;
+  text-wrap: nowrap;
 }
 
 .collection-item-title {
@@ -118,11 +120,12 @@
 
   .collection-box {
     background-position: left top 30.5%;
+    background-size: 200px 250px;
   }
 
   .collection-item-list {
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 32px 0;
   }
 
   .collection-item {

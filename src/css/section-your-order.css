@@ -36,7 +36,6 @@
   margin-bottom: 40px;
 }
 
-
 .form-field {
   width: 100%;
   height: 47px;
@@ -47,7 +46,7 @@
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:hover,
@@ -67,7 +66,7 @@
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-field:hover,
@@ -101,7 +100,7 @@
   letter-spacing: -0.04em;
   cursor: pointer;
   background-color: #1c2225;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:hover,
@@ -165,7 +164,6 @@ TABLET YOUR ORDER-SECTION STYLES
     margin-bottom: 100px;
   }
 
-
   .order-product-img {
     display: block;
     padding-bottom: 79px;
@@ -195,7 +193,6 @@ your-order-section styles for desktop
 ======================================================================================================================================================== */
 
 @media screen and (min-width: 1280px) {
-
   .order-section-img {
     margin-bottom: 150px;
     background-image: url(/img/your_order_img/order_section_img-min_desctop-min.jpg);
@@ -215,26 +212,26 @@ your-order-section styles for desktop
     gap: 0 50px;
   }
 
-  .order-form{
+  .order-form {
     order: 2;
     margin: 0;
   }
 
-  .order-product-img{
+  .order-product-img {
     width: 588px;
     height: auto;
     padding-bottom: 119px;
   }
 
-.order-btn {
-  margin-bottom: 0;
-}
+  .order-btn {
+    margin-bottom: 0;
+  }
 
   .ornament-img {
     background-position: -256px bottom;
   }
 
-    .ornament-img {
-      background-position: right calc(50% + 623.5px) bottom;
-    }
+  .ornament-img {
+    background-position: right calc(50% + 623.5px) bottom;
+  }
 }
