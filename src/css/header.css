@@ -41,6 +41,9 @@
 	border: 1px solid rgba(252, 249, 249, 0.1);
 	background: rgba(252, 249, 249, 0.1);
 }
+.icon-social{
+  fill: #FCF9F9;
+}
 
 .address__link:hover,
 .address__link:focus {
