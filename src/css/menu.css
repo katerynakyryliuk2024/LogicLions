@@ -22,7 +22,7 @@ html {
 .mob-menu-ornament {
   background-image: url(/img/bg-images/black-pattern-bg.png);
   background-size: 340px 302px;
-  background-position: right -39px bottom calc(50% - 305px);
+  background-position: right -39px bottom calc(50% - 205px);
   background-repeat: no-repeat;
 }
 
@@ -115,7 +115,7 @@ html {
 
   .mob-menu-ornament {
     background-size: 545px 484px;
-    background-position: right -92px bottom calc(50% - 390px);
+    background-position: right -92px bottom calc(50% - 290px);
     background-repeat: no-repeat;
   }
 
