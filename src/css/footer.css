@@ -1,0 +1,131 @@
+.footer {
+    position: relative;
+    overflow-y: clip;
+    padding-bottom: 280px;
+    padding-top: 40px;
+}
+
+.footer-container {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    padding-top: 40px;
+}
+
+.footer-ornament {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -201px;
+    width: 452px;
+    height: 401px;
+    background-image: url(/img/bg-images/yellow-pattern-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-nav {
+    display: inline-block;
+}
+
+.footer-list {
+    max-width: 280px;
+    max-height: 61px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 25px;
+    margin-bottom: 40px;
+}
+
+.footer-item {
+    width: calc((100% - 40px) / 2);
+}
+
+.footer-span {
+    color: #ECD979;
+}
+
+.footer-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    color: #FCF9F9;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #ECD979;
+}
+
+.footer-title {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    color: #FCF9F9;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+        margin-top: 50px;
+        padding-top: 0;
+        padding-bottom: 40px;
+        overflow-x: clip;
+    }
+
+    .footer-container {
+        overflow: hidden;
+    }
+
+    .footer-ornament {
+        left: calc(50% + 209px);
+        bottom: -17px;
+        transform: translateX(0);
+    }
+
+    .footer-list {
+        flex-wrap: nowrap;
+        max-width: 768px;
+        margin-bottom: 80px;
+        column-gap: 25px;
+    }
+
+    .footer-item {
+        width: auto;
+    }
+
+    .footer-title {
+        font-size: 54px;
+        line-height: 1.19;
+        width: 521px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        margin-top: 75px;
+    }
+
+    .footer-ornament {
+        left: calc(50% + 303px);
+        bottom: -104px;
+        transform: translateX(0);
+        width: 595px;
+        height: 528px;
+    }
+
+    .footer-list {
+        margin-bottom: 117px;
+    }
+
+    .footer-title {
+        font-size: 64px;
+        line-height: 1.16;
+        width: 754px;
+    }
+}

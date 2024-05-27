@@ -179,7 +179,7 @@ TABLET YOUR ORDER-SECTION STYLES
   .ornament-img {
     background-image: url(/img/bg-images/gray-pattern-bg.png);
     background-repeat: no-repeat;
-    background-position: right calc(50% + 333px) bottom;
+    background-position: right calc(50% + 333px) bottom +50px;
     background-size: 545px 484px;
   }
 
@@ -235,6 +235,6 @@ your-order-section styles for desktop
   }
 
     .ornament-img {
-      background-position: right calc(50% + 623.5px) bottom;
+      background-position: right calc(50% + 623.5px) bottom +75px;
     }
 }
