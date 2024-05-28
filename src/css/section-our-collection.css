@@ -1,15 +1,15 @@
-.collection-box {
-  background-image: url(/img/collection/vizerunok-yello-min.png);
-  background-repeat: no-repeat;
-  background-position: left top 10%;
-  max-width: fit-content;
-  margin: 0 auto;
-  background-size: 199px 177px;
-}
-
 .collection {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.bg-vyshyvanka {
+  width: 199px;
+  height: 177px;
+  position: absolute;
+  top: 217px;
+  left: -147px;
+  z-index: -1;
 }
 
 .collection-title {
@@ -32,6 +32,10 @@
   width: 100%;
   padding-left: 0;
   margin: 0;
+}
+
+.collection-item:first-child {
+  position: relative;
 }
 
 .collection-image-list {
@@ -73,9 +77,11 @@
     padding-bottom: 50px;
   }
 
-  .collection-box {
-    background-position: left top 16%;
-    background-size: 338px 300px;
+  .bg-vyshyvanka {
+    width: 338px;
+    height: 300px;
+    left: -254px;
+    top: 117px;
   }
 
   .collection-title {
@@ -119,8 +125,8 @@
     padding-bottom: 75px;
   }
 
-  .collection-box {
-    background-position: left top 25.5%;
+  .bg-vyshyvanka {
+    left: -219px;
   }
 
   .collection-item-list {
