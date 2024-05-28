@@ -13,6 +13,10 @@ html {
   top: 0;
   right: 0;
   z-index: 999999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   width: 274px;
   background-color: #ecd979;
@@ -25,29 +29,23 @@ html {
   padding: 20px 20px 0 20px;
 }
 
-/* .mob-menu-ornament {
-  background-image: url(/img/bg-images/black-pattern-bg.png);
-  background-size: 340px 302px;
-  background-position: right -39px bottom calc(50% - 205px);
-  background-repeat: no-repeat;
-} */
+
 
 .box-ornament{
    background-image: url(/img/bg-images/black-pattern-bg.png);
-    /* min-width: 320px; */
     width: 340px;
     height: 302px;
     background-position: top left -27px;
     background-repeat: no-repeat;
     background-size: cover;
+  background-size: cover;
+
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-  /* .mob-menu-ornament {
-    background-image: url(/img/bg-images/black-pattern-bg@2x.png);
-  } */
+
 }
 
 .mobile-menu.is-open {
@@ -97,7 +95,6 @@ html {
 .mob-menu-content {
 
   display: flex;
-  /* flex-direction: row-reverse; */
   flex-direction: column;
 }
 
@@ -128,6 +125,7 @@ html {
   .mobile-menu {
     width: 380px;
   }
+
   .content-ornament{
     padding-left: 32px;
     padding-right: 32px;
@@ -137,11 +135,6 @@ html {
     height: 484px;
     background-position: top 120px left -73px
   }
-  /* .mob-menu-ornament {
-    background-size: 545px 484px;
-    background-position: right -92px bottom calc(50% - 290px);
-    background-repeat: no-repeat;
-  } */
 
   /* Top content */
   .mob-menu-top-content {
