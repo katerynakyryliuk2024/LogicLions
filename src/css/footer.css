@@ -3,6 +3,7 @@
     overflow-y: clip;
     padding-bottom: 280px;
     padding-top: 40px;
+    overflow-x: hidden;
 }
 
 .footer-container {
@@ -52,6 +53,7 @@
     line-height: 129%;
     text-transform: uppercase;
     color: #FCF9F9;
+    text-wrap: nowrap;
 }
 
 .footer-link:hover,
@@ -69,6 +71,15 @@
     color: #FCF9F9;
 }
 
+@media only screen and (max-width: 767px) {
+    .footer-item:nth-child(4) {
+        order: 3;
+    }
+
+    .footer-item:nth-child(2) {
+        order: 3;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .footer {
