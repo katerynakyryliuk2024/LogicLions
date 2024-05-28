@@ -10,26 +10,35 @@ html {
   top: 0;
   right: 0;
   z-index: 999999;
-  padding: 20px;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   width: 274px;
   background-color: #ecd979;
   overflow-y: auto;
+  overflow-x: hidden;
   transform: translate(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.mob-menu-ornament {
+.content-ornament {
+  padding: 20px 20px 0 20px;
+}
+
+.box-ornament {
   background-image: url(/img/bg-images/black-pattern-bg.png);
-  background-size: 340px 302px;
-  background-position: right -39px bottom calc(50% - 205px);
+  width: 340px;
+  height: 302px;
+  background-position: top left -27px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-  .mob-menu-ornament {
+  .box-ornament {
     background-image: url(/img/bg-images/black-pattern-bg@2x.png);
   }
 }
@@ -80,7 +89,7 @@ html {
 
 .mob-menu-content {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .mob-menu-nav {
@@ -108,15 +117,16 @@ html {
   }
 
   .mobile-menu {
-    padding: 20px 32px;
     width: 380px;
-    background-position: bottom;
   }
-
-  .mob-menu-ornament {
-    background-size: 545px 484px;
-    background-position: right -92px bottom calc(50% - 290px);
-    background-repeat: no-repeat;
+  .content-ornament {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .box-ornament {
+    width: 545px;
+    height: 484px;
+    background-position: top 120px left -73px;
   }
 
   /* Top content */
