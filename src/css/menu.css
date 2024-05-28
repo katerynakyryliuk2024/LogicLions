@@ -6,10 +6,14 @@ html {
     MOBILE MENU
 ======================================================================================================================================================== */
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 999999;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,26 +25,27 @@ html {
   transform: translate(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-
-.content-ornament {
+.content-ornament{
   padding: 20px 20px 0 20px;
 }
 
-.box-ornament {
-  background-image: url(/img/bg-images/black-pattern-bg.png);
-  width: 340px;
-  height: 302px;
-  background-position: top left -27px;
-  background-repeat: no-repeat;
+
+
+.box-ornament{
+   background-image: url(/img/bg-images/black-pattern-bg.png);
+    width: 340px;
+    height: 302px;
+    background-position: top left -27px;
+    background-repeat: no-repeat;
+    background-size: cover;
   background-size: cover;
+
 }
 
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-  .box-ornament {
-    background-image: url(/img/bg-images/black-pattern-bg@2x.png);
-  }
+
 }
 
 .mobile-menu.is-open {
@@ -88,6 +93,7 @@ html {
 /* NAV menu */
 
 .mob-menu-content {
+
   display: flex;
   flex-direction: column;
 }
@@ -119,14 +125,15 @@ html {
   .mobile-menu {
     width: 380px;
   }
-  .content-ornament {
+
+  .content-ornament{
     padding-left: 32px;
     padding-right: 32px;
   }
-  .box-ornament {
+  .box-ornament{
     width: 545px;
     height: 484px;
-    background-position: top 120px left -73px;
+    background-position: top 120px left -73px
   }
 
   /* Top content */
