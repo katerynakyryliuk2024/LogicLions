@@ -235,6 +235,7 @@
 		font-weight: 400;
 		line-height: 20px; /* 142.857% */
 		text-transform: uppercase;
+    background-color: transparent;
 	}
 
 	.solid_menu {
