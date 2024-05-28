@@ -1,0 +1,127 @@
+.hero-text {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.text-yellow {
+  color:#ecd979
+}
+
+.hero-order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  min-width: 154px;
+  min-height: 49px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  fill: #ecd979;
+  margin-left: auto;
+  margin-right: auto;
+  transition: border 300ms cubic-bezier(1, 0.47, 0.13, 0.66);
+}
+
+.hero-order-btn:hover,
+.hero-order-btn:focus {
+  border: 1px solid #ecd979;
+  outline: transparent;
+}
+
+.hero-order-btn-icon {
+  width: 24px;
+  height: 16px;
+}
+
+.hero-handmade {
+  display: none;
+}
+
+.hero-img {
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-text {
+    max-width: 549px;
+    margin-bottom: 46px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.19;
+    margin-bottom: 40px;
+  }
+
+  .hero-order-btn {
+    min-width: 168px;
+    min-height: 50px;
+    font-size: 16px;
+    margin-left: 141px;
+    margin-right: 0;
+  }
+
+  .hero-order-btn-icon {
+    height: 17px;
+  }
+
+  .hero-handmade {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    max-width: 115px;
+  }
+
+  .hero-handmade-img {
+    width: 52px;
+    height: 51px;
+  }
+
+  .hero-handmade-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(252, 249, 249, 0.4);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    column-gap: 40px;
+  }
+
+  .hero-text {
+    max-width: 518px;
+    margin-bottom: 0px;
+    padding-top: 94px;
+  }
+
+  .hero-handmade {
+    top: 14px;
+    right: 50px;
+  }
+}

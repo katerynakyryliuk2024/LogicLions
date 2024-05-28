@@ -98,6 +98,7 @@
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: -0.04em;
+  text-transform: uppercase;
   cursor: pointer;
   background-color: #1c2225;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -177,7 +178,7 @@ TABLET YOUR ORDER-SECTION STYLES
   .ornament-img {
     background-image: url(/img/bg-images/gray-pattern-bg.png);
     background-repeat: no-repeat;
-    background-position: right calc(50% + 333px) bottom;
+    background-position: right calc(50% + 333px) bottom +50px;
     background-size: 545px 484px;
   }
 
@@ -230,8 +231,7 @@ your-order-section styles for desktop
   .ornament-img {
     background-position: -256px bottom;
   }
-
-  .ornament-img {
-    background-position: right calc(50% + 623.5px) bottom;
-  }
+    .ornament-img {
+      background-position: right calc(50% + 623.5px) bottom +75px;
+    }
 }
