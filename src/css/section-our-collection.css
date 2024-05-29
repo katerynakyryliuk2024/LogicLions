@@ -1,119 +1,86 @@
 .collection {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.bg-vyshyvanka {
-  color: #ecd979;
-  background-image: url(/img/collection/vizerunok-yello-min.png);
-  position: absolute;
-  top: 200px;
-  left: -147px;
-  z-index: -1;
+  background-image: url(/img/collection/vizerunok-yello@2x-min.png);
+  background-repeat: no-repeat;
   background-size: 199px 177px;
+  background-position: top 338px left calc(50% - 214px);
 }
 
-@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
-  .bg-vyshyvanka {
-    width: 199px;
-    height: 177px;
-    color: #ecd979;
-    background-image: linear-gradient(to bottom, rgba(0), rgba(0)),
-      url(/img/collection/vizerunok-yello@x-min.png);
-    top: 200px;
-    left: -147px;
-    z-index: -1;
+@media screen and (min-width: 375px) {
+  .collection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .collection-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+  }
+
+  .collection-image {
+    max-width: 100%;
+  }
+
+  .collection-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .collection-item {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .collection-item:first-child {
+    position: relative;
+  }
+
+  .collection-image-list {
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    max-width: 335px;
+    margin: 0 auto;
+  }
+
+  .collection-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fcf9f9;
+    text-align: left;
+    margin-bottom: 8px;
+    text-wrap: nowrap;
+  }
+
+  .collection-item-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: rgba(252, 249, 249, 0.4);
+  }
+
+  .collection-item-list {
+    margin: 0 auto;
+    padding: 18px 0px;
   }
 }
-.collection-title {
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.38;
-  letter-spacing: -0.03em;
-  color: #fcf9f9;
-}
-
-.collection-image {
-  max-width: 100%;
-}
-
-.collection-list {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
-.collection-item {
-  padding-left: 0;
-  margin: 0;
-}
-
-.collection-item:first-child {
-  position: relative;
-}
-
-.collection-image-list {
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  max-width: 335px;
-  margin: 0 auto;
-}
-
-.collection-subtitle {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #fcf9f9;
-  text-align: left;
-  margin-bottom: 8px;
-  text-wrap: nowrap;
-}
-
-.collection-item-title {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  color: rgba(252, 249, 249, 0.4);
-}
-
-.collection-item-list {
-  margin: 0 auto;
-  padding: 18px 0px;
-}
-
 @media screen and (min-width: 768px) {
   .collection {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
-  .bg-vyshyvanka {
-    color: #ecd979;
-    background-image: url(/img/collection/vizerunok-yello-min.png);
-    position: absolute;
-    top: 117px;
-    left: -254px;
-    z-index: -1;
+  .collection {
     background-size: 338px 300px;
-  }
-
-  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .bg-vyshyvanka {
-      width: 338px;
-      height: 300px;
-      color: #ecd979;
-      background-image: linear-gradient(to bottom, rgba(0), rgba(0)),
-        url(/img/collection/vizerunok-yello@x-min.png);
-      top: 117px;
-      left: -254px;
-      z-index: -1;
-    }
+    background-position: top 271px left calc(50% - 438px);
   }
 
   .collection-title {
@@ -162,28 +129,8 @@
     padding-top: 75px;
     padding-bottom: 75px;
   }
-
-  .bg-vyshyvanka {
-    color: #ecd979;
-    background-image: url(/img/collection/vizerunok-yello-min.png);
-    position: absolute;
-    top: 117px;
-    left: -219px;
-    z-index: -1;
-    background-size: 338px 300px;
-  }
-
-  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    .bg-vyshyvanka {
-      width: 338px;
-      height: 300px;
-      color: #ecd979;
-      background-image: linear-gradient(to bottom, rgba(0), rgba(0)),
-        url(/img/collection/vizerunok-yello@x-min.png);
-      top: 117px;
-      left: -219px;
-      z-index: -1;
-    }
+  .collection {
+    background-position: top 271px left calc(50% - 639px);
   }
 
   .collection-item-list {
