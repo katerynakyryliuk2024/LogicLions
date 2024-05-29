@@ -11,7 +11,7 @@
 }
 
 .text-yellow {
-  color:#ecd979
+  color: #ecd979;
 }
 
 .hero-order-btn {
@@ -96,6 +96,7 @@
   .hero-handmade-img {
     width: 52px;
     height: 51px;
+    animation: sun-animation 10s linear infinite;
   }
 
   .hero-handmade-text {
@@ -103,6 +104,18 @@
     letter-spacing: -0.04em;
     text-align: center;
     color: rgba(252, 249, 249, 0.4);
+  }
+
+  @keyframes sun-animation {
+    0% {
+      transform: rotate(0) scale(1);
+    }
+    50% {
+      transform: rotate(0.5turn) scale(1.4);
+    }
+    to {
+      transform: rotate(1turn) scale(1);
+    }
   }
 }
 
