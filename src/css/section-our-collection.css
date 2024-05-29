@@ -7,7 +7,7 @@
   color: #ecd979;
   background-image: url(/img/collection/vizerunok-yello-min.png);
   position: absolute;
-  top: 217px;
+  top: 200px;
   left: -147px;
   z-index: -1;
   background-size: 199px 177px;
@@ -20,7 +20,7 @@
     color: #ecd979;
     background-image: linear-gradient(to bottom, rgba(0), rgba(0)),
       url(/img/collection/vizerunok-yello@x-min.png);
-    top: 217px;
+    top: 200px;
     left: -147px;
     z-index: -1;
   }
@@ -35,6 +35,10 @@
   color: #fcf9f9;
 }
 
+.collection-image {
+  max-width: 100%;
+}
+
 .collection-list {
   display: flex;
   flex-direction: column;
@@ -42,7 +46,6 @@
 }
 
 .collection-item {
-  width: 100%;
   padding-left: 0;
   margin: 0;
 }
@@ -55,7 +58,7 @@
   border-radius: 4px;
   position: relative;
   overflow: hidden;
-  width: 335px;
+  max-width: 335px;
   margin: 0 auto;
 }
 
@@ -223,7 +226,7 @@
   .collection-image-list {
     position: relative;
     overflow: hidden;
-    width: 380px;
+    max-width: 380px;
     margin: 0 auto;
   }
 }
