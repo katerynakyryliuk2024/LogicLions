@@ -1,16 +1,10 @@
 .collection {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  background-image: url(/img/collection/vizerunok-yello@2x-min.png);
+  background-repeat: no-repeat;
+  background-size: 199px 177px;
+  background-position: top 338px left calc(50% - 214px);
 }
 
-.bg-vyshyvanka {
-  width: 199px;
-  height: 177px;
-  position: absolute;
-  top: 217px;
-  left: -147px;
-  z-index: -1;
-}
 
 .collection-title {
   text-align: center;
@@ -27,9 +21,11 @@
   flex-direction: column;
   gap: 18px;
 }
+.collection-image{
+  width: 100%;
+}
 
 .collection-item {
-  width: 100%;
   padding-left: 0;
   margin: 0;
 }
@@ -42,8 +38,6 @@
   border-radius: 4px;
   position: relative;
   overflow: hidden;
-  width: 335px;
-  margin: 0 auto;
 }
 
 .collection-subtitle {
@@ -54,7 +48,7 @@
   text-transform: uppercase;
   color: #fcf9f9;
   text-align: left;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-wrap: nowrap;
 }
 
@@ -67,21 +61,24 @@
 }
 
 .collection-item-list {
-  margin: 0 auto;
   padding: 18px 0px;
 }
 
-@media screen and (min-width: 768px) {
-  .collection {
-    padding-top: 50px;
-    padding-bottom: 50px;
+@media screen and (max-width: 375px){
+  .collection-subtitle {
+    text-wrap: wrap;
   }
+  .collection-image-list {
+    max-width: 335px;
+  }
+}
 
-  .bg-vyshyvanka {
-    width: 338px;
-    height: 300px;
-    left: -254px;
-    top: 117px;
+@media screen and (min-width: 768px) {
+
+  .collection {
+
+    background-size: 338px 300px;
+    background-position: top 271px left calc(50% - 438px);
   }
 
   .collection-title {
@@ -94,11 +91,7 @@
   }
 
   .collection-subtitle {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
   }
 
   .collection-list {
@@ -111,6 +104,7 @@
   .collection-item {
     width: calc((100% - 20px) / 2);
   }
+  
 
   .collection-item-title {
     font-weight: 400;
@@ -120,62 +114,41 @@
     color: rgba(252, 249, 249, 0.4);
   }
 
+
   .collection-image-list {
-    width: 342px;
+  
   }
 }
 
 @media screen and (min-width: 1280px) {
   .collection {
-    padding-top: 75px;
-    padding-bottom: 75px;
+
+    background-position: top 271px left calc(50% - 639px);
   }
 
-  .bg-vyshyvanka {
-    left: -219px;
-  }
+ 
 
   .collection-item-list {
     padding: 32px 0;
-    width: 380px;
   }
 
   .collection-item {
-    width: calc((100% - 48px) / 3);
-    padding-left: 0;
-    margin: 0;
+    width: calc((100% - 40px) / 3);
     box-shadow: none;
-  }
-  .collection-item-title {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    color: rgba(252, 249, 249, 0.4);
   }
 
   .collection-subtitle {
     margin-bottom: 8px;
-    font-weight: 500;
+
     font-size: 18px;
-    line-height: 1;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #fcf9f9;
   }
 
   .collection-list {
-    display: flex;
-    flex-wrap: wrap;
+
     gap: 40px 20px;
-    row-gap: 40px;
-    padding-left: 0;
-    margin: 0;
   }
   .collection-image-list {
     position: relative;
     overflow: hidden;
-    width: 380px;
-    margin: 0 auto;
   }
 }
