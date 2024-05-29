@@ -1,6 +1,6 @@
-<section class="section-order section-padding ornament-img" id="your-order">
+<section class="section-order section-padding ornament-img">
   <div class="order-section-img"></div>
-  <div class="container order-form-container">
+  <div class="container order-form-container" id="your-order">
 
     <form class="order-form">
       <h2 class="section-header">
@@ -9,31 +9,16 @@
       </h2>
       <div class="form-field-wraper">
         <label class="field-name">
-          <input
-            class="form-field"
-            type="text"
-            name="user-name"
-            placeholder="Enter your full name"
-            required
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
-          />
+          <input class="form-field" type="text" name="user-name" placeholder="Enter your full name"
+            pattern="[А-ЯҐЄІЇа-яґєії\s'-]{2,}" required />
         </label>
         <label class="field-name">
-          <input
-            class="form-field"
-            type="email"
-            name="user-email"
-            placeholder="Enter your email"
-          />
+          <input class="form-field" type="email" name="user-email" placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
         </label>
 
         <label class="field-name">
-          <textarea
-            class="comment-field"
-            name="user-comments"
-            rows="9"
-            placeholder="Comments"
-          ></textarea>
+          <textarea class="comment-field" name="user-comments" rows="9" placeholder="Comments"></textarea>
         </label>
       </div>
       <button class="order-btn" type="submit">

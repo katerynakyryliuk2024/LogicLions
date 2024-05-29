@@ -22,8 +22,8 @@
   background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
-  min-width: 154px;
-  min-height: 49px;
+  width: 154px;
+  height: 49px;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: -0.04em;
