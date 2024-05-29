@@ -15,7 +15,7 @@
   <script type="module" crossorigin src="/LogicLions/commonHelpers.js"></script>
   <link rel="modulepreload" crossorigin href="/LogicLions/assets/vendor-66b26469.js">
   <link rel="stylesheet" href="/LogicLions/assets/vendor-9842083d.css">
-  <link rel="stylesheet" href="/LogicLions/assets/index-10102b57.css">
+  <link rel="stylesheet" href="/LogicLions/assets/index-510de25e.css">
 </head>
 
 <body>
@@ -102,62 +102,44 @@
 </header>
 
   <main>
-          <section class="hero section-padding">
-        <div class="hero-container container">
+    <section class="hero section-padding">
+  <div class="hero-container container">
 
-          <div class="hero-text">
-            <h1 class="hero-title">
-              Reviving the traditional
-              <span class="text-yellow">Ukrainian</span> artistry in every
-              stitch.
-            </h1>
+    <div class="hero-text">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="text-yellow">Ukrainian</span> artistry in every
+        stitch.
+      </h1>
 
-            <button class="hero-order-btn" type="button">
-              Order
-              <svg class="hero-order-btn-icon">
-                <use href="/LogicLions/assets/icons-5494252a.svg#icon-arrow-rigth"></use>
-              </svg>
-            </button>
-          </div>
+      <a class="hero-order-btn" href="#your-order">Order
+        <svg class="hero-order-btn-icon">
+          <use href="/LogicLions/assets/icons-5494252a.svg#icon-arrow-rigth"></use>
+        </svg>
+      </a>
 
-          <div class="hero-handmade">
-            <svg class="hero-handmade-img">
-              <use href="/LogicLions/assets/icons-5494252a.svg#icon-sun"></use>
-            </svg>
-            <p class="hero-handmade-text">all embroidery is made by hand</p>
-          </div>
+    </div>
 
-          <picture>
-            <source
-              srcset="/LogicLions/assets/hero-desktop-389b011f.jpg 1x, /LogicLions/assets/hero-desktop@2x-264498c3.jpg 2x"
-              media="(min-width: 1280px)"
-              width="392"
-              height="545"
-            />
+    <div class="hero-handmade">
+      <svg class="hero-handmade-img">
+        <use href="/LogicLions/assets/icons-5494252a.svg#icon-sun"></use>
+      </svg>
+      <p class="hero-handmade-text">all embroidery is made by hand</p>
+    </div>
 
-            <source
-              srcset="/LogicLions/assets/hero-tabl-8c96cebc.jpg 1x, /LogicLions/assets/hero-tabl@2x-73821fa1.jpg 2x"
-              media="(min-width: 768px)"
-              width="413"
-              height="575"
-            />
+    <picture>
+      <source srcset="/LogicLions/assets/hero-desktop-389b011f.jpg 1x, /LogicLions/assets/hero-desktop@2x-264498c3.jpg 2x" media="(min-width: 1280px)" width="392" height="545" />
 
-            <source
-              srcset="/LogicLions/assets/hero-mob-d2a8ede4.jpg 1x, /LogicLions/assets/hero-mob@2x-bb48e8ac.jpg 2x"
-              media="(min-width: 375px)"
-              width="335"
-              height="545"
-            />
+      <source srcset="/LogicLions/assets/hero-tabl-8c96cebc.jpg 1x, /LogicLions/assets/hero-tabl@2x-73821fa1.jpg 2x" media="(min-width: 768px)" width="413" height="575" />
 
-            <img
-              class="hero-img"
-              src="/LogicLions/assets/hero-mob-d2a8ede4.jpg"
-              alt="Girl in vyshyvanka"
-            />
-          </picture>
-        </div>
+      <source srcset="/LogicLions/assets/hero-mob-d2a8ede4.jpg 1x, /LogicLions/assets/hero-mob@2x-bb48e8ac.jpg 2x"
+        media="(min-width: 375px)" width="335" height="545" />
 
-      </section>
+      <img class="hero-img" src="/LogicLions/assets/hero-mob-d2a8ede4.jpg" alt="Girl in vyshyvanka" />
+    </picture>
+  </div>
+
+</section>
     <section class="about-us section-padding" id="about-us">
 
   <div class="container about-us-content-wrapper">
@@ -311,9 +293,9 @@
     </ul>
   </div>
 </section>
-    <section class="section-order section-padding ornament-img" id="your-order">
+    <section class="section-order section-padding ornament-img">
   <div class="order-section-img"></div>
-  <div class="container order-form-container">
+  <div class="container order-form-container" id="your-order">
 
     <form class="order-form">
       <h2 class="section-header">
@@ -322,31 +304,16 @@
       </h2>
       <div class="form-field-wraper">
         <label class="field-name">
-          <input
-            class="form-field"
-            type="text"
-            name="user-name"
-            placeholder="Enter your full name"
-            required
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
-          />
+          <input class="form-field" type="text" name="user-name" placeholder="Enter your full name"
+            pattern="[А-ЯҐЄІЇа-яґєії\s'-]{2,}" required />
         </label>
         <label class="field-name">
-          <input
-            class="form-field"
-            type="email"
-            name="user-email"
-            placeholder="Enter your email"
-          />
+          <input class="form-field" type="email" name="user-email" placeholder="Enter your email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
         </label>
 
         <label class="field-name">
-          <textarea
-            class="comment-field"
-            name="user-comments"
-            rows="9"
-            placeholder="Comments"
-          ></textarea>
+          <textarea class="comment-field" name="user-comments" rows="9" placeholder="Comments"></textarea>
         </label>
       </div>
       <button class="order-btn" type="submit">
@@ -367,7 +334,6 @@
     </div>
   </div>
 </section>
-
     <section class="section-testimonials section-padding" id="testimonials">
     <div class="container">
         <h2 class="testimonials-section-title">Testimonials</h2>
